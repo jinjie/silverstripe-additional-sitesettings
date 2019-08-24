@@ -1,0 +1,21 @@
+{
+    "name": "jinjie/silverstripe-additional-sitesettings",
+    "description": "Additional Site Settings for SilverStripe 4",
+    "keywords": ["silverstripe", "google analytics"],
+    "type": "silverstripe-vendormodule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SwiftDevLabs\\AdditionalSiteSettings\\": "src/"
+        }
+    },
+    "require": {
+        "silverstripe/cms": "^4"
+    }
+}

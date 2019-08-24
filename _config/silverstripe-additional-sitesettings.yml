@@ -1,0 +1,11 @@
+---
+name: silverstripe-additional-sitesettings
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - SwiftDevLabs\AdditionalSiteSettings\Extensions\SiteConfig
+
+PageController:
+  extensions:
+    - SwiftDevLabs\AdditionalSiteSettings\Extensions\PageController
