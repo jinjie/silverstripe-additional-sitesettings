@@ -59,7 +59,7 @@ class SiteConfig extends DataExtension
 
         // Google Analytics Tab
         $fields->insertBefore(
-            $gaTab = Tab::create('GoogleAnalyticsTab'),
+            $gaTab = Tab::create('GoogleAnalyticsTab', 'Google Analytics'),
             'Access'
         );
 
